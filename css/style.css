@@ -157,7 +157,9 @@ body {
     flex-wrap: wrap;
 }
 
-.bloco-de-conquistas, .conteudo-vamos-la {
+.bloco-de-conquistas,
+.conteudo-vamos-la,
+.conteudo-gerencia-projetos {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
@@ -174,7 +176,8 @@ body {
     padding: 64px 0;
 }
 
-.conteudo-vamos-la {
+.conteudo-vamos-la,
+.conteudo-gerencia-projetos {
     justify-content: space-between;
 }
 
@@ -190,4 +193,54 @@ body {
 
 .link-roxo i {
     margin-left: 8px;
+}
+
+/* GERENCIA DE PROJETOS */
+
+.todo-conteudo-gerencia-projetos {
+    background-color: #FF3773;
+    color: white;
+    padding: 68px 0;
+}
+
+.todo-conteudo-gerencia-projetos .botoes-lojas {
+    margin-top: 48px;
+}
+
+/* RODAPE */
+
+.rodape {
+    background: #0B0D17;
+    padding: 56px 84px;
+    color: white;
+}
+
+.conteudo-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-rodape ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.menu-rodape ul li {
+margin-right: 24px;
+}
+
+.menu-rodape ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.botoes-download-rodape {
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes-download-rodape a {
+    margin-top: 16px;
 }
