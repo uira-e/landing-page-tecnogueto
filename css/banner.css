@@ -1,0 +1,15 @@
+/* Banner Principal */
+
+.banner-principal {
+    background-image: url(../img/bg-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    margin-bottom: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

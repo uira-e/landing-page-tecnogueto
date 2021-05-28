@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.conteudo {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    max-width: 1140px;
+    min-width: 60%;
+}
+
+.bloco-de-recursos {
+    text-align: center;
+    width: 30%;
+    margin: 50px 0px 15px 0;
+    /*padding-top: 40px;
+    padding-bottom: 40px;*/
+}
+
+.bloco-de-recursos i {
+    font-size: 48px;
+}
+
+.cor-verde {
+    color: #28F5BE;
+}
+
+.cor-rosa {
+    color: #FF3773;
+}
+
+.titulo-bloco-de-recursos {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.todos-os-blocos-de-recursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titulo-de-sessao {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo {
+    margin: 8px 0px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.sub-titulo {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+/*  HEADER  */
+
+.cabecalho {
+    background-color: white;
+    border-bottom: solid 1px #e5e9f2;
+    padding: 26px 0;
+}
+
+.conteudo-do-header, 
+.conteudo-conquistas, 
+.bloco-de-numeros,
+.bloco-depoimentos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacoes-do-cabecalho, 
+.informacoes-do-cabecalho nav {
+    display: flex;
+    align-items: center;
+}
+
+.informacoes-do-cabecalho img, 
+.informacoes-do-cabecalho nav a {
+    margin-right: 32px;
+}
+
+.informacoes-do-cabecalho nav a {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #18191f;
+}
+
+.botoes-lojas a {
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+/* GERAL */
+
+.titulo-principal {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    margin-bottom: 32px;
+}
+
+.botao {
+    background: #28F5BE;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 67px;
+    border-radius: 8px;
+}
+
+.botao:hover {
+    background: #FF3773;
+}
+
+
+
+
+
+
+

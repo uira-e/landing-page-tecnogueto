@@ -1,0 +1,59 @@
+/* DEPOIMENTOS */
+
+.todos-os-depoimentos {
+    background: #28F5BE;
+    padding: 120px 0 152px 0;
+    margin: 64px 0;
+}
+
+.depoimento {
+    background: white;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    margin-top: 24px;
+}
+
+.depoimento p, .depoimento h3 {
+    color: #18191f;
+    font-size: 18px;
+}
+
+.depoimento p {
+    line-height: 32px;
+    margin-bottom: 24px;
+    margin-top: -30px;
+}
+
+.depoimento p,
+.depoimento h3,
+.depoimento h4 {
+    padding-left: 32px;
+}
+
+.textos-do-depoimento:before {
+content: url(../img/aspas.png)
+}
+
+.depoimento h3 {
+    line-height: 28px;
+}
+
+.depoimento h4 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #969bab;
+    font-weight: normal;
+}
+
+.margin-negativa-110 {
+    margin-top: -110px;
+}
+
+.margin-negativa-110 .depoimento:first-child {
+margin-bottom: 124px;
+}
+
+.largura-350 {
+    width: 350px;
+}
