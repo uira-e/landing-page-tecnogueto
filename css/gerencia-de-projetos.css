@@ -1,8 +1,8 @@
 /* GERENCIA DE PROJETOS */
 
 .todo-conteudo-gerencia-projetos {
-    background-color: #FF3773;
-    color: white;
+    background-color: var(--cor-rosa);
+    color: var(--cor-branca);
     padding: 68px 0;
 }
 

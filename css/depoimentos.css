@@ -1,13 +1,13 @@
 /* DEPOIMENTOS */
 
 .todos-os-depoimentos {
-    background: #28F5BE;
+    background: var(--cor-verde);
     padding: 120px 0 152px 0;
     margin: 64px 0;
 }
 
 .depoimento {
-    background: white;
+    background: var(--cor-branca);
     padding: 32px;
     border-radius: 8px;
     box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);

@@ -3,7 +3,7 @@
 .rodape {
     background: #0B0D17;
     padding: 56px 84px;
-    color: white;
+    color: var(--cor-branca);
 }
 
 .conteudo-rodape {
@@ -24,7 +24,7 @@
 
 .menu-rodape ul li a {
     text-decoration: none;
-    color: white;
+    color: var(--cor-branca);
 }
 
 .botoes-download-rodape {

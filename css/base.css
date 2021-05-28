@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+:root {
+    --cor-rosa: #FF3773;
+    --cor-verde: #28F5BE;
+    --cor-branca: #fff;
+}
+
 body {
     font-family: 'Manrope', sans-serif;
     color: #333333;
@@ -21,8 +27,6 @@ body {
     text-align: center;
     width: 30%;
     margin: 50px 0px 15px 0;
-    /*padding-top: 40px;
-    padding-bottom: 40px;*/
 }
 
 .bloco-de-recursos i {
@@ -30,11 +34,11 @@ body {
 }
 
 .cor-verde {
-    color: #28F5BE;
+    color: var(--cor-verde);
 }
 
 .cor-rosa {
-    color: #FF3773;
+    color: var(--cor-rosa);
 }
 
 .titulo-bloco-de-recursos {
@@ -71,7 +75,7 @@ body {
 /*  HEADER  */
 
 .cabecalho {
-    background-color: white;
+    background-color: var(--cor-branca);
     border-bottom: solid 1px #e5e9f2;
     padding: 26px 0;
 }
@@ -118,8 +122,8 @@ body {
 }
 
 .botao {
-    background: #28F5BE;
-    color: #ffffff;
+    background: var(--cor-verde);
+    color: var(--cor-branca);
     text-decoration: none;
     text-align: center;
     padding: 16px 67px;
@@ -127,7 +131,7 @@ body {
 }
 
 .botao:hover {
-    background: #FF3773;
+    background: var(--cor-rosa);
 }
 
 
