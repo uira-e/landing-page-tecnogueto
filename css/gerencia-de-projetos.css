@@ -3,9 +3,9 @@
 .todo-conteudo-gerencia-projetos {
     background-color: var(--cor-rosa);
     color: var(--cor-branca);
-    padding: 68px 0;
+    padding: 4.25rem 0;
 }
 
 .todo-conteudo-gerencia-projetos .botoes-lojas {
-    margin-top: 48px;
+    margin-top: 3rem;
 }

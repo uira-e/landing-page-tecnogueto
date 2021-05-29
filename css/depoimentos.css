@@ -2,33 +2,33 @@
 
 .todos-os-depoimentos {
     background: var(--cor-verde);
-    padding: 120px 0 152px 0;
-    margin: 64px 0;
+    padding: 7.5rem 0 9.5rem 0;
+    margin: 4rem 0;
 }
 
 .depoimento {
     background: var(--cor-branca);
-    padding: 32px;
-    border-radius: 8px;
-    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
-    margin-top: 24px;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0.625rem 1.25rem rgba(41, 41, 42, 0.07);
+    margin-top: 1.5rem;
 }
 
 .depoimento p, .depoimento h3 {
     color: #18191f;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .depoimento p {
-    line-height: 32px;
-    margin-bottom: 24px;
-    margin-top: -30px;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: -1.875rem;
 }
 
 .depoimento p,
 .depoimento h3,
 .depoimento h4 {
-    padding-left: 32px;
+    padding-left: 2rem;
 }
 
 .textos-do-depoimento:before {
@@ -36,24 +36,24 @@ content: url(../img/aspas.png)
 }
 
 .depoimento h3 {
-    line-height: 28px;
+    line-height: 1.75rem;
 }
 
 .depoimento h4 {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
     color: #969bab;
     font-weight: normal;
 }
 
 .margin-negativa-110 {
-    margin-top: -110px;
+    margin-top: -6.875rem;
 }
 
 .margin-negativa-110 .depoimento:first-child {
-margin-bottom: 124px;
+margin-bottom: 7.75rem;
 }
 
 .largura-350 {
-    width: 350px;
+    width: 21.875rem;
 }

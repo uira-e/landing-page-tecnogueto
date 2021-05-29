@@ -1,8 +1,8 @@
 /* NOSSAS CONQUISTAS */
 
 .todas-nossas-conquistas {
-    padding-top: 82px;
-    padding-bottom: 82px;
+    padding-top: 5.125rem;
+    padding-bottom: 5.125rem;
 }
 
 .coluna, .bloco-de-conquistas {
@@ -16,10 +16,10 @@
 .bloco-de-conquistas, .conteudo-vamos-la, .conteudo-gerencia-projetos {
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .bloco-de-conquistas i {
-    font-size: 26px;
-    margin-right: 16px;
+    font-size: 1.625rem;
+    margin-right: 1rem;
 }

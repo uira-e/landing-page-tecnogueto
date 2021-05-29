@@ -2,7 +2,7 @@
 
 .rodape {
     background: #0B0D17;
-    padding: 56px 84px;
+    padding: 3.5rem 5.25rem;
     color: var(--cor-branca);
 }
 
@@ -15,11 +15,11 @@
 .menu-rodape ul {
     list-style: none;
     display: flex;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .menu-rodape ul li {
-    margin-right: 24px;
+    margin-right: 1.5rem;
 }
 
 .menu-rodape ul li a {
@@ -33,5 +33,5 @@
 }
 
 .botoes-download-rodape a {
-    margin-top: 16px;
+    margin-top: 1rem;
 }
