@@ -36,9 +36,28 @@
     margin-top: 1rem;
 }
 
+.conteudo-rodape div:nth-of-type(1) { order: 1; }
+.conteudo-rodape div:nth-of-type(2) { order: 2; }
+
 @media screen and (max-width: 30rem) {
    .rodape {
     padding-left: 0;
     padding-right: 0;
    } 
+
+.conteudo-rodape div:nth-of-type(1) { order: 2; }
+.conteudo-rodape div:nth-of-type(2) { order: 1; }
+
+.menu-rodape ul {
+    justify-content: center;
+}
+.menu-rodape ul li {
+margin: 0 1rem;
+padding: 1rem 0 0 0;
+}
+
+.conteudo-rodape p {
+    text-align: center;
+}
+
 }
