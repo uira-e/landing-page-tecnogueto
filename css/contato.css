@@ -1,0 +1,84 @@
+:root {
+    --cor-rosa: #FF3773;
+    --cor-verde: #28F5BE;
+    --cor-branca: #fff;
+}
+
+body {
+    height: 100vh;
+    background-color:var(--cor-verde);
+}
+
+.rodape-contato {
+    /* position: absolute;
+    bottom: 0;
+    width: 100%; */
+}
+
+.conteudo-contato {
+    padding: 3.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-contato h1 {
+}
+
+.item-formulario {
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+.item-formulario label {
+    font-weight: 800;
+}
+
+.input-form {
+width: 100%;
+border: none;
+padding: .5rem .3rem;
+border-radius: .1rem;
+margin-top: .3rem;
+}
+
+.urgente {
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea {
+    resize: vertical;
+}
+
+select {
+    color: #333333;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #333333;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #333333;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #333333;
+  }
+
+  .botao-form {
+    background:#333333;
+    color: var(--cor-branca);
+    text-decoration: none;
+    text-align: center;
+    padding: .75rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-top: .5rem;
+    float: right;
+}
+
+.botao-form:hover {
+    background: var(--cor-rosa);
+}
