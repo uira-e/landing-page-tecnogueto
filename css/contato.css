@@ -5,23 +5,13 @@
 }
 
 body {
-    height: 100vh;
     background-color:var(--cor-verde);
-}
-
-.rodape-contato {
-    /* position: absolute;
-    bottom: 0;
-    width: 100%; */
 }
 
 .conteudo-contato {
     padding: 3.5rem 0;
     display: flex;
     justify-content: center;
-}
-
-.conteudo-contato h1 {
 }
 
 .item-formulario {
@@ -42,6 +32,12 @@ margin-top: .3rem;
 }
 
 .urgente {
+    display: flex;
+    justify-content: space-between;
+}
+
+.yes-no {
+    width: 30%;
     display: flex;
     justify-content: space-between;
 }
